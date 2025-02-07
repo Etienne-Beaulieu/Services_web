@@ -1,0 +1,1 @@
+import liste from "../controllers/professeurs.models.js";
