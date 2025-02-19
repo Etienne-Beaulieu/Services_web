@@ -4,7 +4,7 @@ import dotenv from 'dotenv';
 // Importer le fichier de router du fichier professeurs.route
 import router from './src/routes/pokemons.route.js';
 
-const hostname = process.env.HOSTNAME || 'localhost';
+const hostname = 'localhost';
 const port = process.env.PORT || 3000;
 
 dotenv.config();
